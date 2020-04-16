@@ -87,6 +87,11 @@ h3.titolo {
   font-family: arial;
   font-weight: bold;
 }
+
+ul.menu a:hover li {
+  background-color: rgb(90, 80, 80);
+  border-radius: 5px;
+}
 /* Fine Proprietà barra*/
 
 /* Proprietà Main */
@@ -104,6 +109,14 @@ main::after {
   padding: 7px 10px;
   border-radius: 10px;
 }
+
+.sottotitoli {
+  display: inline-block;
+  color: rgb(80, 80, 80);
+  font-family: sans-serif;
+  font-size: 30px;
+  padding: 10px 0 15px 5px;
+}
 /* Fine Proprietà generali colonne */
 
 /* Proprietà colonna sinistra */
@@ -116,12 +129,9 @@ img {
   vertical-align: 30px;
 }
 
-.sottotitoli {
-  display: inline-block;
-  color: rgb(50, 50, 50);
-  font-family: sans-serif;
-  font-size: 30px;
-  padding: 10px 0 15px 5px;
+.link a:hover li {
+  background-color: rgb(240, 240, 255);
+  border-radius: 5px;
 }
 
 .link {
@@ -193,7 +203,13 @@ img {
 .icona {
   color: grey;
   font-size: 50px;
-  margin: 20px 50px 20px;
-  padding: 0 100px;
+  margin: 20px 150px 20px;
+  padding: 5px;
+
+}
+
+.social a:hover i {
+  background-color: rgb(200, 200, 225);
+  border-radius: 5px;
 }
 /* Fine Footer */
