@@ -19,6 +19,7 @@ body {
 }
 /* Proprietà container */
 
+/* Proprietà logo */
 .logo {
   position: relative;
   margin-top: 20px;
@@ -28,7 +29,21 @@ body {
   height: 400px;
   border: 12px solid white;
 }
+/* Fine Proprietà logo */
 
+/* Proprietà logo montagne */
+.montagne {
+  background-image: url(../img/montagne.png);
+  width: 120px;
+  height: 56px;
+  position: absolute;
+  top: 29%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* Fine Proprietà logo montagne */
+
+/* Proprietà titolo */
 .titolo {
   position: absolute;
   top: 50%;
@@ -50,7 +65,9 @@ h3.titolo {
   font-size: 28px;
   font-family: sans-serif;
 }
+/* Fine Proprietà titolo */
 
+/* Proprietà barra*/
 .bar {
   background-color: rgb(102, 102, 102);
   height: 50px;
@@ -70,6 +87,7 @@ h3.titolo {
   font-family: arial;
   font-weight: bold;
 }
+/* Fine Proprietà barra*/
 
 /* Proprietà Main */
 main::after {
@@ -79,13 +97,16 @@ main::after {
 }
 /* Fine Proprietà Main */
 
+/* Proprietà generali colonne */
 .col {
   float: left;
   background-color: white;
   padding: 7px 10px;
   border-radius: 10px;
 }
+/* Fine Proprietà generali colonne */
 
+/* Proprietà colonna sinistra */
 .col.sinistra {
   margin-top: 15px;
   width: 20%;
@@ -114,7 +135,9 @@ img {
   font-family: arial;
   padding-bottom: 15px;
 }
+/* Fine Proprietà colonna sinistra */
 
+/* Proprietà colonna centrale */
 .col.centrale {
   width: 50%;
   margin: 15px 5%;
@@ -126,7 +149,9 @@ img {
   font-family: arial;
   line-height: 35px;
 }
+/* Fine Proprietà colonna centrale */
 
+/* Proprietà colonna destra */
 .col.destra {
   background-color: inherit;
   float: right;
@@ -141,7 +166,9 @@ img {
   padding: 7px 10px;
   border-radius: 10px;
 }
+/* Fine Proprietà colonna destra */
 
+/* Footer */
 .footer {
   margin-top: 40px;
   background-color: white;
@@ -169,3 +196,4 @@ img {
   margin: 20px 50px 20px;
   padding: 0 100px;
 }
+/* Fine Footer */
