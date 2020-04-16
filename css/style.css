@@ -1,0 +1,72 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Fine Reset */
+
+/* Proprietà body */
+body {
+  background-image: url(../img/pattern.png);
+}
+/* Fine Proprietà body */
+
+/* Proprietà container */
+.container {
+  width: 60%;
+  margin: auto;
+}
+/* Proprietà container */
+
+.logo {
+  position: relative;
+  margin-top: 20px;
+  background-image: url(../img/header.jpg);
+  color: white;
+  text-align: center;
+  height: 400px;
+  border: 12px solid white;
+}
+
+.titolo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1.titolo {
+  width: 40%;
+  font-size: 75px;
+  font-family: arial;
+  letter-spacing: 10px;
+  font-weight: lighter;
+  border: 8px solid white;
+}
+
+h3.titolo {
+  top: 80%;
+  font-size: 28px;
+  font-family: sans-serif;
+}
+
+.bar {
+  background-color: rgb(102, 102, 102);
+  height: 50px;
+}
+
+.menu {
+  list-style: none;
+  text-align: center;
+  line-height: 55px;
+}
+
+li {
+  display: inline-block;
+  padding: 0 12px;
+  color: white;
+  font-size: 12px;
+  font-family: arial;
+  font-weight: bold;
+}
