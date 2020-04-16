@@ -71,6 +71,14 @@ h3.titolo {
   font-weight: bold;
 }
 
+/* Proprietà Main */
+main::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Fine Proprietà Main */
+
 .col {
   float: left;
   background-color: white;
@@ -107,7 +115,7 @@ img {
   padding-bottom: 15px;
 }
 
-.centrale {
+.col.centrale {
   width: 50%;
   margin: 15px 5%;
 }
@@ -119,7 +127,45 @@ img {
   line-height: 35px;
 }
 
-.destra {
+.col.destra {
+  background-color: inherit;
+  float: right;
+  padding: 0 10px;
   margin-top: 15px;
   width: 20%;
+}
+
+.sottocolonne {
+  background-color: white;
+  margin-bottom: 40px;
+  padding: 7px 10px;
+  border-radius: 10px;
+}
+
+.footer {
+  margin-top: 40px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.footer p {
+  color: lightgrey;
+  padding: 5px;
+  border-bottom: 1px solid darkgrey;
+  text-align: center;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.social {
+  text-align: center;
+}
+
+.icona {
+  color: grey;
+  font-size: 50px;
+  margin: 20px 50px 20px;
+  padding: 0 100px;
 }
